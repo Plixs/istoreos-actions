@@ -25,3 +25,6 @@
 # CONFIG_PACKAGE_luci-app-adguardhome=y
 # CONFIG_PACKAGE_luci-app-openclash=y
 # ' >> .config
+
+#修改更新源
+sed -i 's#mirrors.tuna.tsinghua.edu.cn#mirrors.aliyun.com#g' /etc/opkg/distfeeds.conf
