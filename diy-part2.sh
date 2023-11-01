@@ -27,4 +27,4 @@
 # ' >> .config
 
 #修改更新源
-sed -i 's#downloads.openwrt.org#mirrors.aliyun.com/openwrt#g' /etc/opkg/distfeeds.conf
+sed -i 's#mirrors.tuna.tsinghua.edu.cn#mirrors.aliyun.com/openwrt#g' /etc/opkg/distfeeds.conf
